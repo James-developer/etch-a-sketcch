@@ -1,0 +1,73 @@
+body{
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#container {
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:460px;
+	width: 460px;
+	padding: 0;
+    border: 25px solid green;
+}
+
+.cell{
+    display: inline-block;  
+    background-color: whitesmoke;
+    border: 1px solid grey;
+}
+
+#name{
+    text-align: center;
+    font-family: fantasy;
+}
+#frame{
+    text-align: center;
+}
+#firstbtn{
+    margin-bottom: 15px;
+    font-family: fantasy;
+}
+.btn-group .button {
+    background-color: rgb(80, 180, 83); /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: fantasy;
+    border-radius: 20%;
+    
+  }
+  .btn-group .button:hover {
+    background-color:  rgb(33, 136, 36);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .color-buttons{
+      margin-top: 12px;
+  }
+
+  #redBtn{
+    background-color:red;
+  }
+
+  #blueBtn{
+    background-color:blue;
+}
+#orangeBtn{
+    background-color: orange;
+}
+#yellowBtn{
+    background-color: black;
+}
+#greenBtn{
+    background-color: purple;
+}
